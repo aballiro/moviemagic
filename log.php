@@ -3,7 +3,7 @@
 <body>
 <?php
 $page_title = 'Login';
-include('C:\xampp\htdocs\Movie Magic\header.html');
+include('C:\xampp\htdocs\Movie_Magic\header.html');
 ?>
 <div class = "header">
  <h2> Log-in </h2>
@@ -38,7 +38,7 @@ if (isset($_POST['password'])) echo $_POST['password'];?>"></h5>
 
 </div>
 <?php
-include('C:\xampp\htdocs\Movie Magic\footer.html');
+include('C:\xampp\htdocs\Movie_Magic\footer.html');
 ?>
 
 </body>

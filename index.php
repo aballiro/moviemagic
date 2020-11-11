@@ -4,7 +4,7 @@
 
 <?php
 $page_title = 'Movie Magic';
-include('C:\xampp\htdocs\Movie Magic\header.html');
+include('C:\xampp\htdocs\Movie_Magic\header.html');
 ?>
 
 <div class="topnav">
@@ -43,7 +43,7 @@ include('C:\xampp\htdocs\Movie Magic\header.html');
     </div>
 
 <?php
-include('C:\xampp\htdocs\Movie Magic\footer.html');
+include('C:\xampp\htdocs\Movie_Magic\footer.html');
 ?>
 
 </body>
