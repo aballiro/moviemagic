@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+.header {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .search-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.topnav .search-container button {
+  margin-left: -20px;
+  margin-right: auto;
+  padding: 6px 10px;
+  margin-top: 8px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+.p{
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+  color: white;
+  background-color: black;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+  color: white;
+  background-color: black;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+ <img src = "MM_Edit.png" width = "150" height = "100">
+ <p style="text-align:right"><img src = "MM_cute.png" width = "150" height = "100">
+ <br>
+ <?php include('PickOfTheDay.php'); ?></p>
+</div>
+
+
+</body>
+</html>
