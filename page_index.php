@@ -6,8 +6,8 @@
 
 // Credentials for the database
 $DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'root';
-$DATABASE_PASS = '';
+$DATABASE_USER = 'menen';
+$DATABASE_PASS = '2t@r';
 $DATABASE_NAME = 'movie_magic';
 
 // number of results per page

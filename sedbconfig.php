@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'MovieMagic';
-$username = 'Moviemagic';
-$password = 'Tk@y98karter';
+$dbname = 'movie_magic';
+$username = 'menen';
+$password = '2t@r';
 
 // Create connection
 $conn = mysqli_connect($host, $username, $password);

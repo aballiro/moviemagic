@@ -9,43 +9,20 @@ include('C:\xampp\htdocs\Movie_Magic\header.html');
 
 <div class="topnav">
   <a href="log.php">Login</a>
-  <a href="#">Create Account</a>
+  <a href="registration.php">Create Account</a>
   <div class="search-container">
      <form action="display_movie.php" method="Get">
+     <center>
      <input type="text" placeholder="Search.." name="search">
-     <button type="submit"><i class="fa fa-search"></i></button>
-  <!--<p style="text-align:right"><a href="logout.php">Logout</a>-->
+     <button type="submit" name="search_btn"><i class="fa fa-search"></i></button></center>
      </form>
-     <form action="display_movie_by_genre.php" method="GET">
-		<p style="text-align:center;color:white">Sort Movie By Genre: 
-		<select id="sort" name="sort">
-			<option>Comedy</option>
-			<option>Sci-Fi</option>
-			<option>Horror</option>
-			<option>Romance</option>
-			<option>Action</option>
-			<option>Thriller</option>
-			<option>Drama</option>
-			<option>Mystery</option>
-			<option>Crime</option>
-			<option>Animation</option>
-			<option>Adventure</option>
-			<option>Fantasy</option>
-			<option>Comedy-Romance</option>
-			<option>Action-Comedy</option>
-			<option>SuperHero</option>
-		</select>
-		<input type="Submit" name="search_btn2" value="sort"><br>
-	</form></p>
   </div>
 </div>
 
 
 <div class="side">
   <div class="column side">
-      <h2>Completed List</h2>
-      <h5>Last Edited: </h5>
-      <p>Add functionality</p>
+      <p style="color:black">Completed List</p>
     </div>
 </div>
 
@@ -118,13 +95,9 @@ include('C:\xampp\htdocs\Movie_Magic\footer.html');
 
 <div class="side">
   <div class="column side">
-      <h2>To Watch List</h2>
-      <h5>Last Edited: </h5>
-      <p>Add functionality</p>
+      <p style="color:black">Add functionality</p>
     </div>
 </div>
-
-
 
 </body>
 </html>

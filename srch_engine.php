@@ -13,7 +13,6 @@
 		<input type="text" placeholder="Search.." name="search">
 		<input type="Submit" name="search_btn" value="search"><br>
 	</form>
-
 	<!--Search Movie By Genre Selection Form -->
 	<form action="display_movie_by_genre.php" method="GET">
 		<label for="sort">Sort Movie By Genre: </label>
@@ -38,27 +37,20 @@
 	</form>
 <!--
 <script type="text/javascript">
-
 	
 	const APIKEY = '589a90e1ba09f86efbec10121753898b'; //''
 const APIURL  = 'https://api.themoviedb.org/3/movie/550?api_key=589a90e1ba09f86efbec10121753898b';
-
 async function getMovies() {
 	const resp = await fetch(APIURL);
 	const respData = await resp.json();
-
 	console.loh(respData);
-
 	respData.results .forEach((movie) => {
 		const img = document.createElement("img");
 		img.src = IMGPATH + movie.poster_path;
-
 		document.body.appendChild(img);
 	});
 	return respData;
-
 }
-
 getMovies();
 </script>-->
 </body>
